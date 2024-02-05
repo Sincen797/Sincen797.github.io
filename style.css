@@ -1,7 +1,10 @@
 body {
   background: rgb(140, 123, 214);
   color: rgb(45, 45, 45);
+ .sidebar {
+  margin-right: 25px;
   padding: 10px;
+ }
   font-family: arial;
 }
 #all-contents {
@@ -13,6 +16,7 @@ body {
 nav {
   background: rgb(75, 16, 153);
   margin: 0 auto;
+  margin-bottom: 20px;
   display: flex;
   padding: 10px;
 }
