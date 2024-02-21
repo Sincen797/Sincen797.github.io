@@ -68,6 +68,7 @@ $(function () {
     createCollectable("grace", 1350, 300); // creates a "grace" collectible at the coordinates (500, 300), falling with default gravity and bouncing with default bounce %
     createCollectable("kennedi", 700, 300); // creates a "grace" collectible at the coordinates (500, 300), falling with default gravity and bouncing with default bounce %
     createCollectable("database", 1350, 100); // creates a "grace" collectible at the coordinates (500, 300), falling with default gravity and bouncing with default bounce %
+    createCollectable("max", 400, 600); // creates a "grace" collectible at the coordinates (500, 300), falling with default gravity and bouncing with default bounce %
 
 
 
@@ -78,8 +79,10 @@ $(function () {
     // example usage: createCannon(side, position, delay, width, height)
 
     createCannon("left", 600, 1000); // cannon on left wall, 600px down, shooting once per second
-    createCannon("top", 600, 1000); // cannon on left wall, 600px down, shooting once per second
+    createCannon("top", 800, 1000); // cannon on left wall, 600px down, shooting once per second
     createCannon("bottom", 500, 1000); // cannon on left wall, 600px down, shooting once per second
+    createCannon("top", 1000, 1000); // cannon on left wall, 600px down, shooting once per second
+
     /////////////////////////////////////////////////
     //////////ONLY CHANGE ABOVE THIS POINT///////////
     /////////////////////////////////////////////////
