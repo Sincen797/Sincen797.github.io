@@ -15,7 +15,7 @@
 			display: block;
 			position: absolute;
 			top: 100px;
-			left: 500px;  /* <--- Change me! */
+			left: 900px;  /* <--- Change me! */
 		}
 		.board{
 			height: 100vh;
@@ -53,8 +53,7 @@
 			}
 
 			// changes the text displayed on the Box
-			function changeBoxText() {
-				points = points + 1;
+			function changeBoxText(newText) {
 				box.text(newText);
 			}
 
@@ -68,11 +67,6 @@
 			var speed = 10;
 			
 	
-
-
-
-
-
 			
 			/* 
 			This Function will be called 20 times/second. Each time it is called,
@@ -104,7 +98,7 @@
 				changeBoxText(points);
 				speed = speed + 3;
 
-				if(speed > 0) {
+				if (speed > 0) {
 				   speed = speed + 3;
 			}
 
