@@ -57,9 +57,9 @@ var circles = []; // variable to store all circles in one Array
             physikz.updatePosition(circles[2]);
             physikz.updatePosition(circles[3]);
             physikz.updatePosition(circles[4]);
-          }
+          
 
-}
+
 
             
             // TODO 5 / 10 : Call game.checkCirclePosition() on your circles.
